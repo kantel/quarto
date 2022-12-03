@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: docs
 
 website:
   title: "Jörgs Testblog"
@@ -16,5 +15,5 @@ format:
     theme: litera
     css: styles.css
 
-editor: source
+editor: visual
 

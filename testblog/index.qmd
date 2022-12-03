@@ -1,5 +1,6 @@
 ---
 title: ""
+lang: de
 listing:
   contents: posts
   sort: "date desc"

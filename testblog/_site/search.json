@@ -7,6 +7,13 @@
     "text": "Was denn? Ein Thunderbird-Update ohne das es vorher ein Update des Firefox gab? Es sieht danach aus, denn die Entwickler des Mozilla Thunderbird haben das Update auf die Version 102.5.1 freigegeben und damit auch Sicherheitslücken behoben.\nThunderbird weist selbst auf dieses Update hin. Diese Prozedur kann aber auch wie immer über das Menü Hilfe > Über Thunderbird angestoßen werden. (Mein persönlicher CERT per Email.)"
   },
   {
+    "objectID": "posts/20221203_chrome_update/index.html",
+    "href": "posts/20221203_chrome_update/index.html",
+    "title": "Google korrigiert in der neuen Version 108 seines Browsers Chrome auch wieder Sicherheitslücken",
+    "section": "",
+    "text": "Google veröffentlicht ein neues Update der Version 108 (108.0.5359.94/95) seines Browsers Chrome und schließt erneut kritische Sicherheitslücken.\nChrome aktualisiert sich (außer bei Linux) über die integrierte Update-Funktion, kann aber – wenn es pressiert – auch hier geladen werden. (Mein persönlicher CERT per Email.)"
+  },
+  {
     "objectID": "posts/iosupdate20221201/index.html",
     "href": "posts/iosupdate20221201/index.html",
     "title": "Security Alert: Apple veröffentlicht iOS 16.1.2",
@@ -32,7 +39,7 @@
     "href": "index.html",
     "title": "Jörgs Testblog",
     "section": "",
-    "text": "Der Schockwellenreiter und Quarto: Erste Ergebnisse\n\n\n\n\n\n\n\nInterna\n\n\n\n\n\n\n\n\n\n\n\nDec 2, 2022\n\n\nJörg Kantel\n\n\n\n\n\n\n  \n\n\n\n\nMozilla Thunderbird Version 102.5.1 freigegeben\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2022\n\n\nJörg Kantel\n\n\n\n\n\n\n  \n\n\n\n\nSecurity Alert: Apple veröffentlicht iOS 16.1.2\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2022\n\n\nJörg Kantel\n\n\n\n\n\n\n  \n\n\n\n\nDie Zahlen für den Monat November 2022\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2022\n\n\nJörg Kantel\n\n\n\n\n\n\nNo matching items"
+    "text": "Google korrigiert in der neuen Version 108 seines Browsers Chrome auch wieder Sicherheitslücken\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n03.12.2022\n\n\nJörg Kantel\n\n\n\n\n\n\n  \n\n\n\n\nDer Schockwellenreiter und Quarto: Erste Ergebnisse\n\n\n\n\n\n\n\nInterna\n\n\n\n\n\n\n\n\n\n\n\n02.12.2022\n\n\nJörg Kantel\n\n\n\n\n\n\n  \n\n\n\n\nMozilla Thunderbird Version 102.5.1 freigegeben\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n01.12.2022\n\n\nJörg Kantel\n\n\n\n\n\n\n  \n\n\n\n\nSecurity Alert: Apple veröffentlicht iOS 16.1.2\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n01.12.2022\n\n\nJörg Kantel\n\n\n\n\n\n\n  \n\n\n\n\nDie Zahlen für den Monat November 2022\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n01.12.2022\n\n\nJörg Kantel\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "about.html",

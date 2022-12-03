@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.2.269">
@@ -7,9 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Jörg Kantel">
-<meta name="dcterms.date" content="2022-12-01">
 
-<title>Jörgs Testblog - Security Alert: Apple veröffentlicht iOS 16.1.2</title>
+<title>Jörgs Testblog - Der Schockwellenreiter und Quarto: Erste Ergebnisse</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -49,15 +48,15 @@ ul.task-list li input[type="checkbox"] {
   "type": "overlay",
   "limit": 20,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken"
   }
 }</script>
 
@@ -111,9 +110,9 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Security Alert: Apple veröffentlicht iOS 16.1.2</h1>
+<h1 class="title">Der Schockwellenreiter und Quarto: Erste Ergebnisse</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">News</div>
+    <div class="quarto-category">Interna</div>
   </div>
   </div>
 
@@ -122,16 +121,16 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     <div>
-    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Autor:in</div>
     <div class="quarto-title-meta-contents">
              <p>Jörg Kantel </p>
           </div>
   </div>
     
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 1, 2022</p>
+      <p class="date">2. Dezember 2022</p>
     </div>
   </div>
   
@@ -141,10 +140,22 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><img src="madhattersteaparty-b.jpg" class="img-fluid"></p>
-<p>Apple hat das Update auf iOS 16.1.2 bereitgestellt. Die Neuerungen können im wesentlichen <a href="https://support.apple.com/en-us/HT213407">hier verfolgt</a> werden. Wie immer wurden auch hier wieder <a href="https://support.apple.com/en-us/HT201222">Sicherheitslücken</a> behoben.</p>
-<p>Das Update auf auf iOS 16.1.2 kann über OTA (<em>Over the Air</em> - in <code>Einstellungen &gt; Allgemein &gt; Softwareaktualisierung</code>, an ausreichender Akku-Kapazität und freien Speicherplatz sollte gedacht werden) oder über iTunes erfolgen.</p>
-<p>Eine vorherige Sicherung des Geräts ist wie immer sehr zu empfehlen. <em>(Mein <a href="http://www.gwdg.de/~mreiman1/">persönlicher CERT</a> per Email.)</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.flickr.com/photos/schockwellenreiter/52537205617/"><img src="quartoblog01-b.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<p>Wie <a href="http://blog.schockwellenreiter.de/2022/11/2022113004.html">angekündigt</a> habe ich gestern abend und heute vormittag erste Gehversuche unternommen, um dieses <del>Blog</del> Kritzelheft zukünftig mit <a href="http://cognitiones.kantel-chaos-team.de/mathematik/rstudio.html">RStudio</a> und <a href="http://cognitiones.kantel-chaos-team.de/webworking/staticsites/quarto.html">Quarto</a> herauszuschreiben (und eventuell auf <a href="http://cognitiones.kantel-chaos-team.de/webworking/webservices/githubpages.html">GitHub Pages</a> zu hosten).</p>
+<p>Die ersten Schritte waren recht einfach: Zwar gab es zu Beginn ein paar seltsame und verstörende Fehlermeldungen, aber nachdem sich das System (nach einem kompletten Neustart) eingependelt hatte, waren diese verschwunden (und tauchen hoffentlich auch nie wieder auf – ich habe sie nämlich nicht verstanden). Mit den (Quarto-Blog-) Default-Einstellungen und einigen sehr vorsichtigen Anpassungen ließ sich eine Testversion des <em>Schockwellenreiters</em> auch herausschreiben (siehe <a href="https://www.flickr.com/photos/schockwellenreiter/52537205617/">Screenshot</a> im Banner oben). Und die sieht gar nicht mal so schlecht aus, damit könnte ich leben.</p>
+<p>Aber wie immer im Leben sind natürlich noch etliche Fragen offen. Die ersten möchte ich hier stellen und hoffe auf die Weisheit der Cloud:</p>
+<ol type="1">
+<li>Wie (und wo) stellt man die (Ausgabe-) Sprache ein? So, daß zum Beispiel statt <em>December 1, 2022</em> der <em>1.&nbsp;Dezember 2022</em>, statt <em>Author</em> eben <em>Autor</em> oder statt <em>Figure</em> das deutsche <em>Abbildung</em> herausgeschrieben wird? Der derzeitige deutsch-amerikanische Sprachmischmasch wirkt in meinen Augen sehr unprofessionell.</li>
+<li>Wie (und wo) kann ich mein (selbstgehostetes) Neugiertool <a href="http://cognitiones.kantel-chaos-team.de/webworking/tools/piwik.html">Matomo</a> einbinden? Dafür muß ich einen Schnipsel JavaScript in jede Seite einfügen.</li>
+<li>(Hängt mit der zweiten Frage zusammen): Wie erstelle ich eine Fußzeile oder besser einen Fußblock, die/der am Ende jeder Seite eingebunden wird und so nützliche Informationen wie <em>»Letztes Update</em>«, <em>»Erstellt mit Quarto«</em> oder einen Link zum Impressum enthält?</li>
+</ol>
+<p>Es werden im Laufe der nächsten Tage und Wochen sicher noch einige weitere Fragen auftauchen. Ich bin für jeden Tip und/oder Hinweis dankbar.</p>
+<p>Mein Plan ist es, die nächsten Wochen den <em>Schockwellenreiter</em> doppelt herauszuschreiben. Einmal wie gewohnt in der jetzigen Form mit <a href="http://cognitiones.kantel-chaos-team.de/webworking/staticsites/rubyfrontier.html">RubyFrontier</a> und zweitens neu mit Quarto. Irgendwann werde ich die Quarto-Version auch nach GitHub hochladen. Und sollte dann alles zu meiner Zufriedenheit laufen, werde ich den Umstieg vornehmen – so ist der Übergang mehr oder weniger fließend. Mein Ziel ist, daß dieses <em>Procedere</em> spätestens zum Jahreswechsel abgeschlossen ist. Also drückt mir bitte die Daumen.</p>
+<p>Und jetzt entschuldigt mich bitte. Ich habe zu tun … <em>Still digging!</em></p>
 
 
 
@@ -189,12 +200,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Kopiert");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Kopiert");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
