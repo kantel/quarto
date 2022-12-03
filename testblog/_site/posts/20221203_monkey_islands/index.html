@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jörg Kantel">
 
-<title>Jörgs Testblog - Über dieses Kritzelheft und seinen Autor</title>
+<title>Jörgs Testblog - The Secret of Monkey Island: Code the Classics mit Pygame Zero</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,21 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -46,20 +48,20 @@ ul.task-list li input[type="checkbox"] {
   "type": "overlay",
   "limit": 20,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken"
   }
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -69,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Jörgs Testblog</span>
     </a>
   </div>
@@ -79,8 +81,8 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page">
- <span class="menu-text">Über dieses Kritzelheft und seinen Autor</span></a>
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/kantel"><i class="bi bi-github" role="img">
@@ -104,42 +106,55 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="me2022.jpg" class="about-image
-  rounded " style="width: 20em;">
+<main class="content" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Über dieses Kritzelheft und seinen Autor</h1>
-</div>
+<h1 class="title">The Secret of Monkey Island: Code the Classics mit Pygame Zero</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Spieleprogrammierung</div>
+    <div class="quarto-category">Retrogaming</div>
+    <div class="quarto-category">Pygame Zero</div>
+  </div>
+  </div>
+
+
+
 <div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor:in</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jörg Kantel </p>
+          </div>
   </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">3. Dezember 2022</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
 </header>
-    <div class="about-links">
-  <a href="ttp://creativecommons.org/licenses/by-nc-sa/3.0/de/" class="about-link">
-    <i class="bi bi-badge-cc"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://github.com/kantel" class="about-link">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://mastodon.social/@kantel" class="about-link">
-    <i class="bi bi-mastodon"></i>
-     <span class="about-link-text"></span>
-  </a>
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.raspberrypi.com/app/uploads/2022/11/Screen1.png"><img src="images/monkeyisland-b.jpg" class="img-fluid figure-img"></a></p>
+</figure>
 </div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>Der Schockwellenreiter ist seit dem 24.&nbsp;April 2000 das <del>Weblog</del> digitale Kritzelheft von <a href="http://cognitiones.kantel-chaos-team.de/cv.html">Jörg Kantel</a> (Neuköllner, <del>EDV-Leiter</del> Rentner, Autor, Netzaktivist und ehemaliger <a href="http://cognitiones.kantel-chaos-team.de/notizblock/agility.html">Hundesportler</a> — Reihenfolge rein zufällig). Hier steht, was mir gefällt. Wem es nicht gefällt, der braucht ja nicht mitzulesen. Wer aber mitliest, ist herzlich willkommen und eingeladen, mitzudiskutieren!</p>
-<p>Alle eigenen Inhalte des Schockwellenreiters stehen unter einer <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/">Creative-Commons-Lizenz</a>, jedoch können fremde Inhalte (speziell Videos, Photos und sonstige Bilder) unter einer anderen Lizenz stehen.</p>
-<p>Der Besuch dieser Webseite wird aktuell von der <a href="http://cognitiones.kantel-chaos-team.de/webworking/tools/piwik.html">Matomo Webanalyse</a> erfaßt. Hier können Sie der <a href="http://blog.schockwellenreiter.de/impressum.html#donottrack">Erfassung widersprechen</a>.</p>
-<p>Diese Seite verwendet keine Cookies. Warum auch? Was allerdings die <code>iframes</code> von Amazon, YouTube und Co.&nbsp;machen, entzieht sich meiner Kenntnis.</p>
+<p>Wenn hier im <em>Schockwellenreiter</em> in der Überschrift »Code the Classics« auftaucht, dann trägt fast immer die neueste Wireframe die Schuld daran. So auch heute: Die <a href="https://wireframe.raspberrypi.com/issues/69">Wireframe 69</a> ist frisch erschienen und in dieser Ausgabe gibt es als Beispielprogramm eine Hommage an den 1990 erschienen Klassiker »<a href="https://de.wikipedia.org/wiki/The_Secret_of_Monkey_Island">The Secret of Monkey Island</a>« von <em>LucasArts</em>, der heute als Meilenstein in der Geschichte der Computerspiele, speziell im Segment <a href="https://de.wikipedia.org/wiki/Adventure">Abenteuerspiele</a> <em>(Adventures)</em> gilt.</p>
+<p>Der »Held« des Spieles, <a href="https://de.wikipedia.org/wiki/Guybrush_Threepwood">Guybrush (Ulysses) Threepwood</a>, möchte – obwohl er eher ein Tollpatsch ist – nicht nur ein mächtiger Pirat werden, sondern auch das Herz der Gouverneurin von <em>Mêlée Island</em> gewinnen. Dazu muß er mithilfe des Spielers diverse Abenteuer bestehen und seine Gegenspieler besiegen.</p>
+<p>Die Hommage konzentriert sich auf die Eröffnungsszene und die Basics des Scripting-Systems des Spiels. Wer das Spiel weiterprogrammieren will, muß ihm natürlich mehr Kommandos und mehr Reaktionen des Spielers und der NPC spendieren. Aber mit dem kurzen <a href="http://cognitiones.kantel-chaos-team.de/multimedia/spieleprogrammierung/pygamezero.html">Pygame Zero</a>-Skript sind die Grundlagen dafür gelegt.</p>
+<p>Wegen der besseren Lesbarkeit ist das Beispiel auch wieder in den <em>Raspberry Pi News</em> <a href="https://www.raspberrypi.com/news/code-an-homage-to-monkey-island-wireframe-69/">veröffentlicht</a>. Und wer will, kann sich die aktuelle Wireframe <a href="https://wireframe.raspberrypi.com/issues">hier kostenlos als PDF</a> herunterladen.</p>
 
 
-</main></div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -160,6 +175,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
@@ -173,12 +195,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Kopiert");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Kopiert");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",

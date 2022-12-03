@@ -14,6 +14,13 @@
     "text": "Google veröffentlicht ein neues Update der Version 108 (108.0.5359.94/95) seines Browsers Chrome und schließt erneut kritische Sicherheitslücken.\nChrome aktualisiert sich (außer bei Linux) über die integrierte Update-Funktion, kann aber – wenn es pressiert – auch hier geladen werden. (Mein persönlicher CERT per Email.)"
   },
   {
+    "objectID": "posts/20221203_monkey_islands/index.html",
+    "href": "posts/20221203_monkey_islands/index.html",
+    "title": "The Secret of Monkey Island: Code the Classics mit Pygame Zero",
+    "section": "",
+    "text": "Wenn hier im Schockwellenreiter in der Überschrift »Code the Classics« auftaucht, dann trägt fast immer die neueste Wireframe die Schuld daran. So auch heute: Die Wireframe 69 ist frisch erschienen und in dieser Ausgabe gibt es als Beispielprogramm eine Hommage an den 1990 erschienen Klassiker »The Secret of Monkey Island« von LucasArts, der heute als Meilenstein in der Geschichte der Computerspiele, speziell im Segment Abenteuerspiele (Adventures) gilt.\nDer »Held« des Spieles, Guybrush (Ulysses) Threepwood, möchte – obwohl er eher ein Tollpatsch ist – nicht nur ein mächtiger Pirat werden, sondern auch das Herz der Gouverneurin von Mêlée Island gewinnen. Dazu muß er mithilfe des Spielers diverse Abenteuer bestehen und seine Gegenspieler besiegen.\nDie Hommage konzentriert sich auf die Eröffnungsszene und die Basics des Scripting-Systems des Spiels. Wer das Spiel weiterprogrammieren will, muß ihm natürlich mehr Kommandos und mehr Reaktionen des Spielers und der NPC spendieren. Aber mit dem kurzen Pygame Zero-Skript sind die Grundlagen dafür gelegt.\nWegen der besseren Lesbarkeit ist das Beispiel auch wieder in den Raspberry Pi News veröffentlicht. Und wer will, kann sich die aktuelle Wireframe hier kostenlos als PDF herunterladen."
+  },
+  {
     "objectID": "posts/iosupdate20221201/index.html",
     "href": "posts/iosupdate20221201/index.html",
     "title": "Security Alert: Apple veröffentlicht iOS 16.1.2",
@@ -39,13 +46,13 @@
     "href": "index.html",
     "title": "Jörgs Testblog",
     "section": "",
-    "text": "Google korrigiert in der neuen Version 108 seines Browsers Chrome auch wieder Sicherheitslücken\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n03.12.2022\n\n\nJörg Kantel\n\n\n\n\n\n\n  \n\n\n\n\nDer Schockwellenreiter und Quarto: Erste Ergebnisse\n\n\n\n\n\n\n\nInterna\n\n\n\n\n\n\n\n\n\n\n\n02.12.2022\n\n\nJörg Kantel\n\n\n\n\n\n\n  \n\n\n\n\nMozilla Thunderbird Version 102.5.1 freigegeben\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n01.12.2022\n\n\nJörg Kantel\n\n\n\n\n\n\n  \n\n\n\n\nSecurity Alert: Apple veröffentlicht iOS 16.1.2\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n01.12.2022\n\n\nJörg Kantel\n\n\n\n\n\n\n  \n\n\n\n\nDie Zahlen für den Monat November 2022\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n01.12.2022\n\n\nJörg Kantel\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Google korrigiert in der neuen Version 108 seines Browsers Chrome auch wieder Sicherheitslücken\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n03.12.2022\n\n\nJörg Kantel\n\n\n\n\n\n\n  \n\n\n\n\nThe Secret of Monkey Island: Code the Classics mit Pygame Zero\n\n\n\n\n\n\n\nSpieleprogrammierung\n\n\nRetrogaming\n\n\nPygame Zero\n\n\n\n\n\n\n\n\n\n\n\n03.12.2022\n\n\nJörg Kantel\n\n\n\n\n\n\n  \n\n\n\n\nDer Schockwellenreiter und Quarto: Erste Ergebnisse\n\n\n\n\n\n\n\nInterna\n\n\n\n\n\n\n\n\n\n\n\n02.12.2022\n\n\nJörg Kantel\n\n\n\n\n\n\n  \n\n\n\n\nMozilla Thunderbird Version 102.5.1 freigegeben\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n01.12.2022\n\n\nJörg Kantel\n\n\n\n\n\n\n  \n\n\n\n\nSecurity Alert: Apple veröffentlicht iOS 16.1.2\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n01.12.2022\n\n\nJörg Kantel\n\n\n\n\n\n\n  \n\n\n\n\nDie Zahlen für den Monat November 2022\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n01.12.2022\n\n\nJörg Kantel\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Über dieses Kritzelheft und seinen Autor",
     "section": "",
-    "text": "About this blog"
+    "text": "Der Schockwellenreiter ist seit dem 24. April 2000 das Weblog digitale Kritzelheft von Jörg Kantel (Neuköllner, EDV-Leiter Rentner, Autor, Netzaktivist und ehemaliger Hundesportler — Reihenfolge rein zufällig). Hier steht, was mir gefällt. Wem es nicht gefällt, der braucht ja nicht mitzulesen. Wer aber mitliest, ist herzlich willkommen und eingeladen, mitzudiskutieren!\nAlle eigenen Inhalte des Schockwellenreiters stehen unter einer Creative-Commons-Lizenz, jedoch können fremde Inhalte (speziell Videos, Photos und sonstige Bilder) unter einer anderen Lizenz stehen.\nDer Besuch dieser Webseite wird aktuell von der Matomo Webanalyse erfaßt. Hier können Sie der Erfassung widersprechen.\nDiese Seite verwendet keine Cookies. Warum auch? Was allerdings die iframes von Amazon, YouTube und Co. machen, entzieht sich meiner Kenntnis."
   }
 ]
